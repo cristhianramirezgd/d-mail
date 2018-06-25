@@ -115,3 +115,8 @@ a.button-um{
   padding:$global-padding/4 $global-padding/2;
   border-radius: $global-gutter/4;
 }
+a.button-large{
+  padding:$global-padding $global-padding*2 ;
+  width: 100%;
+  font-weight: 700;
+}

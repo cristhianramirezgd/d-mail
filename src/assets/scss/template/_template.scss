@@ -5,9 +5,17 @@
 body,
 html, 
 .body {
-  background: #f3f3f3 !important;
+  background: #fff !important;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-weight: 600;
+  color:#333;
+}
 .container.header {
   background: #f3f3f3;
 }
@@ -56,4 +64,54 @@ table.button.google table td {
 
 .wrapper.secondary {
   background: #f3f3f3;
+}
+// custom
+.header-link{
+  color:#333;
+  font-weight: 700;
+}
+.bg-header{
+  background:#fffdfa;
+  border-bottom:1px solid #ff8100;
+}
+.bg-tomato{
+  background: tomato;
+}
+.border-orange{
+  border-top:8px solid #ff8100;
+  border-bottom:8px solid #ff8100;
+  background:#fffdfa;
+}
+.border-orange-top{
+  border-top:8px solid #ff8100;
+}
+.border-bottom{
+  border-bottom:1px solid #ededed;
+  margin-bottom:$global-margin;
+}
+.center-image{
+  margin-right:auto;
+  margin-left:auto;
+}
+.margin-top{
+  margin-top:$global-margin/2;
+}
+.padding-top{
+  padding-top:$global-padding;
+}
+.padding-none{
+  padding-left:0!important;
+  padding-right:0!important;
+}
+.text-right {
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+a.button-um{
+  color:#fff;
+  background:#1daced;
+  padding:$global-padding/4 $global-padding/2;
+  border-radius: $global-gutter/4;
 }

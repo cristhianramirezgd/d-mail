@@ -70,6 +70,10 @@ table.button.google table td {
   color:#333;
   font-weight: 700;
 }
+.title-link{
+  color:#333!important;
+  font-weight: 700!important;
+}
 .bg-header{
   background:#fffdfa;
   border-bottom:1px solid #ff8100;
@@ -93,6 +97,12 @@ table.button.google table td {
   margin-right:auto;
   margin-left:auto;
 }
+.center-image-large {
+  margin-right: auto;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    margin-left: auto;
+  }
+}
 .margin-top{
   margin-top:$global-margin/2;
 }
@@ -103,8 +113,23 @@ table.button.google table td {
   padding-left:0!important;
   padding-right:0!important;
 }
-.text-right {
-  text-align: right;
+.text-right-small {
+  @media only screen and (max-width: #{$global-breakpoint}) {
+  text-align:center!important;
+  }
+    text-align: right;
+}
+.text-left-small {
+  @media only screen and (max-width: #{$global-breakpoint}) {
+  text-align:center!important;
+  }
+    text-align: left;
+}
+.text-left-large {
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    text-align: left;
+  }
+    text-align:center!important;
 }
 .text-center{
   text-align: center;

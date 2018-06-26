@@ -132,7 +132,18 @@ table.button.google table td {
     text-align:center!important;
 }
 .text-center{
-  text-align: center;
+  text-align: center!important;
+}
+.code-off-border{
+  border:1px solid #333;
+  background:#ededed;
+  padding: $global-padding $global-padding*3;
+  text-align: center!important;
+  margin-left: auto;
+  margin-right:auto;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: $global-gutter/4;
 }
 a.button-um{
   color:#fff;
@@ -141,7 +152,10 @@ a.button-um{
   border-radius: $global-gutter/4;
 }
 a.button-large{
+  color:#fff;
+  background:#1daced;
   padding:$global-padding $global-padding*2 ;
   width: 100%;
   font-weight: 700;
+  border-radius: $global-gutter/4;
 }
